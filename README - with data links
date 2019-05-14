@@ -1,0 +1,17 @@
+README
+jtdu Final Project
+
+files:
+(1) jtdu.finalproject.ipynb: python notebook for fitting HMMs and saving results
+(2) jtdu.finalproject.Rhtml: Rmarkdown for processing data from the TCGA GDC into training/testing sets and creating figures from HMM results
+
+Data:
+(3)processed training data: 
+
+https://drive.google.com/file/d/1Rfny9vvr0rfVJt7wmbNJaC1FKWLXg0Oh/view?usp=drive_web
+
+(4)processed testing data
+https://drive.google.com/file/d/1wXZeN4tZU8mRx2F2gqK4ItbIOK21ke-N/view?usp=drive_web
+
+Training (3) and testing data (4) were generated with (1) from files downloaded from 
+https://portal.gdc.cancer.gov/repository ( ID=TCGA-COAD, Platform = Illumina Human Methylation 450).  These were read in by the ipython notebook (2) to fit our HMMs under different conditions. HMM results were then plotted using (1).
